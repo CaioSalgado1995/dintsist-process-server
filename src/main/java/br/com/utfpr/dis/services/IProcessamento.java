@@ -1,6 +1,8 @@
 package br.com.utfpr.dis.services;
 
+import java.util.List;
+
 public interface IProcessamento {
 
-	int[] processaImagem(int [] vetor);
+	int[] processaImagem(List<Double> ganho);
 }
